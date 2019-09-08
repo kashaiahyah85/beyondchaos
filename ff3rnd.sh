@@ -1,7 +1,6 @@
 #!/bin/sh
 # If there is no rom available, grab it from archive.org
 # or whatever location you have.
-cd ff3rnd
 
 if [ ! -f ./Final\ Fantasy\ III\ \(USA\).zip ]
 then
