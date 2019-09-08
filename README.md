@@ -1,28 +1,22 @@
 # FF6 Beyond Chaos EX Randomizer for RetroPie
-### a fork of Subractionsoup's fork of Abyssonym's FF6 Beyond Chaos Randomizer
+#### a fork of Subractionsoup's fork of Abyssonym's FF6 Beyond Chaos Randomizer
+
 Version:    0.1.0
 Date:       September 7, 2019
 URL:        https://github.com/kashaiahyah85/ff3rnd
 
-## --- QUICKSTART ---
-### Requirements:
-    FF3 US 1.0 ROM
+## QUICKSTART
+#### Requirements:
+	FF3 US 1.0 ROM
+	MD5 - e986575b98300f721ce27c180264d890
+	CRC32 - a27f1c7a
+	NAME - Final Fantasy III (USA).sfc
 
-### Installation:
+#### Installation:
 	git clone https://github.com/kashaiahyah85/ff3rnd.git && cp ff3rnd/ff3rnd.sh ./ && chmod +x ff3rnd.sh
 
-### Usage:
-    Other users: run "randomizer.py" using Python version 3.7+ (It DOES NOT work with python 2.)
-
-Source ROM file:
-    The randomizer will ask for a ROM file. Beyond Chaos EX does not provide this ROM. The simplest thing is to put the ROM in the same directory as Beyond Chaos EX and simply input the file name.
-    e.g., "ff3.smc"
-    
-    If you prefer to keep the ROM in a different folder, enter the full path. e.g., "C:\Users\Kefka\Documents\snes\ff3.smc"
-
-	The randomizer will remember the last ROM location you used, so on subsequent runs, you can just press Enter to use the same ROM as last time.
-
-    The ROM used should be the FF3 US 1.0 ROM. Both unheadered and headered roms will work. If you use an incorrect or modified rom, the randomizer will warn you before continuing. To be sure, you can check that your rom is correct by comparing the unheadered checksum/hash:
+#### Usage:
+	./ff3rnd.sh
 
     MD5 - e986575b98300f721ce27c180264d890
     CRC32 - a27f1c7a
