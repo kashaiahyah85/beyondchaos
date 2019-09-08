@@ -1,21 +1,17 @@
-FF6 Beyond Chaos EX Randomizer for RetroPie
-a fork of Subractionsoup's fork of Abyssonym's FF6 Beyond Chaos Randomizer
+# FF6 Beyond Chaos EX Randomizer for RetroPie
+### a fork of Subractionsoup's fork of Abyssonym's FF6 Beyond Chaos Randomizer
 Version:    0.1.0
 Date:       September 7, 2019
 URL:        https://github.com/kashaiahyah85/ff3rnd
 
---- QUICKSTART ---
-Requirements:
+## --- QUICKSTART ---
+### Requirements:
     FF3 US 1.0 ROM
 
-Installation:
-'''git clone https://github.com/kashaiahyah85/ff3rnd.git
-cp ff3rnd/ff3rnd.sh ./ && chmod +x ff3rnd.sh'''
+### Installation:
+	git clone https://github.com/kashaiahyah85/ff3rnd.git && cp ff3rnd/ff3rnd.sh ./ && chmod +x ff3rnd.sh
 
-Running the randomizer:
-    Windows users: run beyondchaos_ex.exe (found in beyondchaos_windows.zip attached to the release).
-	If you're using a version prior to Windows 10 and get an error message, try this: https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
-
+### Usage:
     Other users: run "randomizer.py" using Python version 3.7+ (It DOES NOT work with python 2.)
 
 Source ROM file:
