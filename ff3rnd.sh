@@ -9,11 +9,11 @@ wget https://archive.org/download/no-intro-nintendo-super-nintendo-entertainment
 fi
 
 # Pre-emptive cleanup I guess?
-rm -f ./*.sfc ./*.txt
+rm -f ./*.sfc
 
 # Unpack a clean rom and run the randomizer.
 unzip Final\ Fantasy\ III\ \(USA\).zip
-python3 ./randomizer.py
+python ./randomizer.py
 
 # Cleanup time again!
 rm -f /home/pi/RetroPie/roms/snes/#\ FF3\ Randomized.sfc \
@@ -22,5 +22,6 @@ rm -f /home/pi/RetroPie/roms/snes/#\ FF3\ Randomized.sfc \
 # Tell them what's up.
 clear
 less *.txt
+rm -f *.txt
 mv ./*.sfc /home/pi/RetroPie/roms/snes/#\ FF3\ Randomized.sfc
 echo "Run the randomized rom from EmulationStation's snes section.\nIf you wish to make another, it will overwrite this one."
